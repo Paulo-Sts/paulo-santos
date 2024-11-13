@@ -3,7 +3,7 @@
     <!-- Seu nome e cargo -->
     <div class="sidebar-header">
       <h1>Paulo Santos</h1>
-      <p>Full Stack Developer and Data Analyst</p>
+      <p>Full Stack Developer & Data Analyst</p>
     </div>
 
     <!-- Menu de navegação -->
@@ -39,8 +39,8 @@ export default {
 .sidebar {
   width: 50%;
   box-sizing: border-box;
-  padding: 5% 8%;
-  background-color: #333;
+  padding: 5% 0% 8% 20%;
+  /* background-color: #333; */
   position: sticky;
   height: 100vh;
   z-index: 1;

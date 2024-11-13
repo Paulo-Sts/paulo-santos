@@ -74,9 +74,14 @@ export default {
 .content {
   width: 50%;
   box-sizing: border-box;
-  padding: 5% 8%;
+  padding: 5% 20% 8% 0%;
   flex-grow: 1;
   overflow-y: auto;
+}
+
+.section {
+  color: #fff;
+  text-align: left
 }
 
 </style>
