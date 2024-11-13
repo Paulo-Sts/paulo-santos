@@ -74,7 +74,7 @@ export default {
 .content {
   width: 50%;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 5% 8%;
   flex-grow: 1;
   overflow-y: auto;
 }

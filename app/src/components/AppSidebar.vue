@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar sidebar-position">
+  <div class="sidebar">
     <!-- Seu nome e cargo -->
     <div class="sidebar-header">
       <h1>Paulo Santos</h1>
@@ -39,14 +39,25 @@ export default {
 .sidebar {
   width: 50%;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 5% 8%;
   background-color: #333;
   position: sticky;
   height: 100vh;
+  z-index: 1;
 }
 
 .sidebar-header h1 {
-  font-size: 1.5em;
+  font-size: 3em;
+  padding: 0;
+  margin: 0 10px;
+  color: #fff;
+}
+
+.sidebar-header p {
+  font-size: 1.2em;
+  padding: 0;
+  margin: 0 10px;
+  color: #fff;
 }
 
 .sidebar nav ul {
@@ -55,13 +66,13 @@ export default {
 }
 
 .sidebar nav ul li {
-  margin: 10px 0;
+  margin: 10px 10px;
 }
 
 .sidebar nav ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 1.1em;
+  font-size: 0.8em;
 }
 
 .sidebar nav ul li a:hover {
@@ -71,7 +82,7 @@ export default {
 /* Estilo dos ícones */
 .contact-icons {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin-top: 20px;
 }
 
