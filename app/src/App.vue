@@ -19,6 +19,8 @@ export default {
 
 body {
   font-family: 'Poppins', 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 </style>

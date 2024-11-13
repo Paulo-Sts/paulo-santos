@@ -1,5 +1,5 @@
 <template>
-  <div class="sidebar">
+  <div class="sidebar sidebar-position">
     <!-- Seu nome e cargo -->
     <div class="sidebar-header">
       <h1>Paulo Santos</h1>
@@ -38,9 +38,11 @@ export default {
 <style scoped>
 .sidebar {
   width: 50%;
-  background-color: #333;
-  color: #fff;
+  box-sizing: border-box;
   padding: 20px;
+  background-color: #333;
+  position: sticky;
+  height: 100vh;
 }
 
 .sidebar-header h1 {
