@@ -2,10 +2,10 @@
   <div id="app" class="relative">
     <!-- <app-layout /> -->
 
-      <!-- Texto em Diagonal -->
+      <!-- Texto em Diagonal 
     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rotate-45 text-7xl text-red-500 opacity-20 z-10">
       Em Desenvolvimento
-    </div>
+    </div>-->
      <home-component/>
   </div>
 </template>

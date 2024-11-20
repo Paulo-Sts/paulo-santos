@@ -1,11 +1,11 @@
 <template>
   <section id="experience" class="py-16 bg-gray-100">
-    <h2 class="text-3xl font-bold text-center mb-8">Professional Experience</h2>
+    <h2 class="text-3xl font-bold text-center mb-8">Experiência Professional</h2>
     <div class="max-w-5xl mx-auto">
       <!-- Experience Item 1 -->
       <div v-for="(experience, index) in experiences" :key="index" class="mb-6">
         <div class="flex items-center cursor-pointer mb-2" @click="toggleExperience(index)">
-          <h3 class="text-xl font-semibold">{{ experience.title }}</h3>
+          <h3 class="text-xl font-semibold">{{ experience.title }} @{{ experience.company }}</h3>
           <span class="mx-4 text-gray-400">|</span>
           <p class="text-gray-600">{{ experience.dates }}</p>
           <span class="ml-auto text-gray-500">{{ experience.expanded ? '-' : '+' }}</span>
@@ -45,26 +45,29 @@ export default {
       experiences: [
         {
           title: "FullStack Developer",
-          company: "TechSolutions",
-          dates: "January 2022 - Present",
-          description: "Developed and maintained web applications with a focus on full-stack development.",
-          technologies: ["React", "Node.js", "MySQL", "MongoDB"],
+          company: "Logbits - Soluções Tecnológicas",
+          dates: "Julho 2022 - Junho 2024",
+          description: `Desenvolvimento de API RESTful com NodeJs para sistema de gestão do departamento de marketing de uma empresa. 
+                        Desenvolvimento de API para sitema de gestão de contratos de clínica de estética. 
+                        Gestão Ágil desses dois projetos e da equipe de desenvolvimento.`,
+          technologies: ["TypeScript", "Node.js", "MySQL", "Vue.js", "Scrum", "Kanban"],
           expanded: false
         },
         {
-          title: "Data Analyst",
-          company: "DataCorp",
-          dates: "August 2020 - December 2021",
-          description: "Performed data analysis using Python and R. Created dashboards and reports with Power BI.",
-          technologies: ["Python", "R", "Power BI", "SQL"],
+          title: "Estagiário Back-end",
+          company: "Nutrin Group",
+          dates: "Novembro 2021 - Julho 2022",
+          description: "Desenvolvi uma API RESTful em NodeJs para gerenciar o conteúdo de um aplicativo de meditação chamado Mynd.",
+          technologies: ["JavaScript", "NodeJs", "MySql", "Sequelize", "Swagger"],
           expanded: false
         },
         {
-          title: "Web Developer Intern",
-          company: "WebSolutions",
-          dates: "June 2019 - July 2020",
-          description: "Assisted in building and optimizing web pages using HTML, CSS, and JavaScript.",
-          technologies: ["HTML", "CSS", "JavaScript"],
+          title: "Estudante Pesquisador PIBIC",
+          company: "RailBee",
+          dates: "Agosto 2019 - Setembro 2021",
+          description: `Trabalhei na construção de páginas para aplicação web do sistema telemétrico RailBee de monitoramento de trens em tempo real. 
+                        Também colaborei nos testes da API feita em Python com Django responsável por gerenciar a aplicação web.`,
+          technologies: ["HTML5", "CSS3", "Python", "Django"],
           expanded: false
         }
       ]

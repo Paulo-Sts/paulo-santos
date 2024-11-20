@@ -1,6 +1,6 @@
 <template>
   <section id="expertise" class="py-16">
-    <h2 class="text-3xl font-bold text-center mb-8">My Expertise</h2>
+    <!-- <h2 class="text-3xl font-bold text-center mb-8">My Expertise</h2> -->
     <div class="flex justify-center gap-0 flex-wrap">
       <!-- Front-End -->
       <div class="flex-1 p-6 border border-gray-300 max-w-xs">
